@@ -1,5 +1,7 @@
 # IndianaJonesTrivia
 
+This is an Indiana Jones trivia game. I plan to circle back to make it look great with styling and art from the movies. Below are the MVP requirements
+
 GIVEN I am taking a code quiz
 
 WHEN I click the start button
