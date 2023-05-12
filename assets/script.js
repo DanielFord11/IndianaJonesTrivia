@@ -53,7 +53,7 @@ var timerId;
 var score = 0;
 // var pass = null
 
-
+//reduces the game time and calls end of game when time expires
 function clockTick() {
     if(time > 0){
       // update time
@@ -105,7 +105,8 @@ function loadQuestion(){
  currentQuestionEL.textContent = currentQuestion.question;
 
  choicesEl.innerHTML = "";
-
+    
+   //interates through the questions and call the answer handler when the event listener is triggered
  for (let i = 0; i < 4; i++) {
   console.log(currentQuestion.choices[i]);
   //creates button for each answer
