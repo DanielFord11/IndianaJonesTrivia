@@ -145,6 +145,10 @@ function answerHandler (event){
 
   }else{
     console.log("WRONG");
+    console.log("Time:" + time);
+      
+    //reduces time per requirement
+    time = time - 10;
     //display something eventually **
   }
 
